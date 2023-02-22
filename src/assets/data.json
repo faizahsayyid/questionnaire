@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Your Name",
+    "text": "What is your name?",
+    "description": "Include both your first name and last name",
+    "input_type": "text",
+    "required": true,
+    "validation": {
+      "pattern": "^[A-Z][a-z]+\\s[A-Z][a-z]+$",
+      "message": "Invalid name"
+    },
+    "placeholder": "Enter your name here..."
+  },
+  {
+    "id": 2,
+    "title": "Gender",
+    "text": "What is your gender identity?",
+    "input_type": "select",
+    "options": [
+      "Woman",
+      "Man",
+      "Non Binary",
+      "Gender Queer",
+      "Intersex",
+      "Other"
+    ],
+    "required": true
+  },
+  {
+    "id": 3,
+    "title": "Colour",
+    "text": "What is your favourite colour?",
+    "input_type": "autocomplete",
+    "options": ["Red", "Orange", "Yellow", "Green", "Blue", "Purple"],
+    "required": true
+  },
+  {
+    "id": 4,
+    "title": "Courses",
+    "text": "What courses are you taking this semester?",
+    "input_type": "multi-select",
+    "options": ["CSC318", "CSC369", "CSC301", "CSC384"],
+    "required": true
+  }
+]
