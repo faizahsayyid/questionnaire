@@ -19,3 +19,8 @@ export type Answer = {
   question_id: number;
   value: any;
 }
+
+export type Questionnaire = {
+  id: number;
+  questions: Question[];
+}
